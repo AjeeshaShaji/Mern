@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(192, 250, 253);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial,Helvetica, sans-serif;
+}
+
+.submain{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border: 1px solid transparent;
+    object-fit: contain;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    
+
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(26, 26, 70);
+    padding: 30px;
+    
+}
+
+.frst{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.frst h3{
+    font-size: x-large;
+    font-weight: bold;
+}
+.frst p{
+    text-decoration: underline;
+    font-size: medium;
+}
+.form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form label{
+    font-size: medium;
+}
+.f input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(115, 115, 146);
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+.hi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.hi input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(115, 115, 146);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.two{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.three{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    border: 1px solid rgb(115, 115, 146);
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.three label{
+    padding-top: 8px;
+}
+
+.three:hover{
+    background-color: rgb(251, 251, 159);
+    border: 1px solid yellow;
+}
+.form button{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(190, 190, 43);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+}
+.button p{
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.right{
+    width: 50%;
+    padding: 25px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    background-color:rgb(18, 18, 58);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.right h3{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.right p{
+    font-size: large;
+    color: rgb(100,128,149);
+    
+}
+.scnd{
+    border-top: 3px solid rgb(240, 240, 31);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(9, 9, 48);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.dollar{
+    font-size: 48px;
+    color:rgb(240, 240, 31) ;
+    letter-spacing: 2px;
+} 
+.scnd hr{
+    color: rgb(100,128,149);
+}
+
+.hiii{
+    font-size: larger;
+    letter-spacing: 2px;
+    color: white;
+}

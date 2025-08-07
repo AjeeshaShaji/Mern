@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: full;
+
+}
+
+.nav{
+    width: full;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.left{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: grey;
+}
+.snap{
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.h4{
+    padding-top: 16px;
+}
+.id{
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: grey;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: grey;
+}
+.right button{
+    width: 130px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+    color: grey;
+    border: 2px solid grey;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    gap: 130px;
+}
+.lefty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    font-family: sans-serif;
+    
+}
+
+.lefty h2{
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+
+.righty img{
+    width: 380px;
+    height: 500px;
+}
+
+.lefty p{
+    width: 400px;
+    color: grey;
+    font-size: x-large;
+}
+
+.lefty button{
+    background-color: black;
+    color: white;
+    width: 280px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.img{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+

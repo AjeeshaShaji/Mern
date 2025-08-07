@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.nav img{
+    width: 300px;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 60px;
+}
+
+.left{
+    width: 50%;
+
+}
+.left img{
+    width: 630px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 50px;
+}
+
+.right h3{
+    width: 60%;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.right p{
+    width: 70%;
+    font-size: medium;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.right button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(57, 57, 102);
+    font-family: sans-serif;
+    font-size: large;
+    
+}

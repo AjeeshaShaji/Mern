@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mock5.css">
+</head>
+<body>
+    <div class="main">
+        <div class="submain">
+
+            <div class="left">
+                <div class="frst">
+                    <h3>Mortgage Calculator</h3>
+                    <p>Clear All</p>
+                </div>
+                <form class="form">
+
+                    <div class="f">
+                        <label for="amt">Mortgage Amount</label>
+                        <input type="number" name="amt" id="amt" placeholder="$ 300,000" >
+                    </div>
+
+                    <div class="hi">
+                        <div class="one">
+                            <label for="year">Mortgage Term</label>
+                            <input type="number" name="year" id="year" placeholder="25 years" >
+                        </div>
+                        <div class="two">
+                            <label for="int">Interest Rate</label>
+                            <input type="number" name="int" id="int" placeholder="5.25 %">
+                        </div>
+                    </div>
+
+                    <label for="check">Mortgage Type</label>
+
+                    <div class="three">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Repayment</label>
+                    </div>
+                    <div class="three">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Interest Only</label>
+                    </div>
+                    
+                    <button class="button">
+                        <img src="./assets/images/icon-calculator.svg" alt=""><p>Calculate Repayment</p>
+                    </button>
+                </form>
+            </div>
+
+
+            <div class="right">
+                <h3>Your results</h3>
+                <p>Your results are shown below based on the information you provided.to adjust the results,edit the form and click "calculate repayments" again.</p>
+                <div class="scnd">
+                    <p>Your Montly Repayments</p>
+                    <h2 class="dollar">$1,797.74</h2>
+                    <hr>
+                    <p>Total you'll repay over the term</p>
+                    <h5 class="hiii">$539,322.94</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
