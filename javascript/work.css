@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    padding: 20px;
+}
+
+.main button{
+    width: 100px;
+    height: 20px;
+    box-shadow: 1px 1px 1px  grey;
+}
